@@ -1,5 +1,5 @@
 /** @format */
-export const API_BASE_URL = "http://localhost:5000/api/v1";
+export const API_BASE_URL = "https://craftui-api.onrender.com/api/v1";
 
 export const API_ROUTE = {
     LOGIN: "/auth/login",
