@@ -138,7 +138,7 @@ const AuthPage: React.FunctionComponent = () => {
             setState({ isLoading: true });
             try {
                 const sanitizedEmail = sanitizeEmail(loginForm.email);
-                await login(sanitizedEmail, loginForm.password, () => navigate("/dashboard"));
+                await login(sanitizedEmail, loginForm.password, () => navigate("/"));
             } finally {
                 setState({ isLoading: false });
             }
