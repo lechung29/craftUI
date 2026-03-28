@@ -1,5 +1,5 @@
 /** @format */
-export const API_BASE_URL = "https://craftui-api.onrender.com/api/v1";
+export const API_BASE_URL = "https://craft-ui-api.vercel.app/api/v1";
 
 export const API_ROUTE = {
     LOGIN: "/auth/login",
